@@ -1,0 +1,36 @@
+{
+  "name": "dev-dashboard",
+  "version": "1.0.0",
+  "description": "Dev Dashboard using blessed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "dev dashboard",
+    "blessed",
+    "react-blessed"
+  ],
+  "author": "Punith K",
+  "license": "ISC",
+  "dependencies": {
+    "@use-it/interval": "^0.1.3",
+    "blessed": "^0.1.81",
+    "figlet": "^1.5.0",
+    "react": "^16.13.1",
+    "react-blessed": "^0.6.2",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8"
+  }
+}
